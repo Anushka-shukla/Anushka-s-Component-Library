@@ -5,12 +5,14 @@
 :root {
     --primary-color: #F59E0B;
     --dark-grey: #6B7280;
+    --off-white: #E5E7EB;
 
 }
 
 body {
 
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -49,7 +51,7 @@ hr {
 /** look into BEM naming conventions for CSS **/
 
 /** lists **/
-.non-bullet {
+.list-non-bullet {
     list-style: none;
 }
 
@@ -99,8 +101,51 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
+    padding: 1rem;
     color: var(--dark-grey);
     text-align: center;
 }
+
+.hero .hero-heading
+.heading-inverted {
+    color: var(--primary-color);
+}
+
+/** section **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1  {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer {
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+
+}
+
+
 
 
